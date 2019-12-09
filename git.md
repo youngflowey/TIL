@@ -98,9 +98,10 @@ git 에서 이력을 남기기 위해서는 `commit`을 통해서 진행한다.
 ```bash
 $ git commit -m '커밋메시지'
 $ git commit -m 'Add files'
-[master (root-commit) eca547b] Add files
- 1 file changed, 0 insertions(+), 0 deletions(-)
+[master (root-commit) 3238ccd] Add files
+ 2 files changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 a.txt
+ create mode 100644 b.txt
 ```
 
 ```bash
