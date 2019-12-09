@@ -1,0 +1,67 @@
+2주차
+
+- Web 크롤링, 스크래핑
+- 외부 API를 이용한 데이터 구축(JSON)
+
+컴퓨터를 사용한다
+데이터통신을 하려면
+=> 랜카드(NIC) : Network Inerface Card
+
+여러개의 컴퓨터를 NIC를 이용해 연결해서 네트워크망을 생성할 수 있다.
+=> LAN(Local Area Network)
+=> LAN of LAN (네트워크의 네크워크) : Internet
+=> 인터넷 : 물리적인 framework를 지칭하는 용어
+이 위에 여러가지 서비스를 지정해서 사용하고 있다.
+=> 파일을 전송하기 위한 서비스 (FTP)
+=> 메일을 주고받기 위한 서비스 (SMTP)
+=> 특정 내용을 개시하고 클라이언트가 볼 수 있도록하는 서비스 (웹서비스) : (HTTP) HTTPS(보안이 추가된 HTTP) => Web
+=> ....
+=> 데이터를 주고 받기 위해서 존재하는 약속, 규칙 프로토콜(Protocol)
+
+====================================================
+
+Web Server는 기본적으로 CS구조를 가져요
+(Client-Server구조)
+# exel 참조
+==========================================
+
+Web 시스템을 구축하기 위해서
+1. Web Server program(Tomcat)
+	=> 다운로드 받아야한다
+	=> Tomcat7 다운로드
+
+2. 클라이언트에게제공할 HTML, CSS, JavaScript, 서버쪽 프로그램을 작성하기 위해 IDE(개발툴, 개발환경)가 필요
+	=> Eclipse를 다운로드 => Java 개발툴
+	=> 설치파일을 다운로드한 후 install
+	=> \\M1604INS(강사용 컴퓨터) 공유폴더사용
+
+3. Web Server(Tomcat), 개발툴(Eclipse) 연동 (밑에 servers -  Tomcat리 다운롣 받아져 있는 곳 선택)
+sever -> tomcat7.0-> tomcat에 들어가서폴더설정->왼쪽화면 오른쪽버튼->new->dynamic web project만들기->이름정해주고 next->next->context root : 웹상에서 클라이언트가 우리프로그램을 인지하기 위한 이름(한글이나특수문자x)->webcontent하단에 만들어야함->new->html 5형탤->preferance->general>workspace>text file encoding>utf-*,
+appearace-text font로 바꿔줘야함->서버클릭해서 (밑화면)->add and remove- configured
+# web에 전개한다. deploy한다
+
+==> 서버쪽 프로그램을 통해서 프로젝트를 dploy한 후 클라이언트는 다음 같이 접속
+
+URL: http:// (어떤 약속을 가지고 이용할 것인지)
+       http://IP주소:port번호/작업프로젝트
+	강사용 컴퓨터의 tmf cat에- 적동
+	http://70.16.116.160ㅣ8080/testabc, test hl
+	자신의 컴퓨터의 tomat에 에  접속
+	http://laccalhost8080/testabc.tset.html
+
+웹스톤에서
+프로젝트를 만들고	
+파일을 만들고
+=>웹서버가 있어야함
+=>웹서버가 내장되어있다
+    포트번호는 63342
+자동으로configure시켜서웹에 게시해야한다
+클라이언트 browser열어서 저속까지 실행
+	
+
+
+
+
+
+
+

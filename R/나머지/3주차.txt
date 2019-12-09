@@ -1,0 +1,18 @@
+1. r기초
+
+2. vkdlfrncnr
+- vkdlfcjfl
+
+3. 데이터 조작(plyr, dplyr, reshaple2, etc)
+- package 함수를 이용한 data frame 조작
+- reshape2 package
+- 데이터 전처리(결측치 처리, 이상치, 극단치 처리)
+
+4. 데이터 시각화( 텍스트 분석 및 시각화 , ggplot2, graphics)
+
+5. 데이터 분석
+
+6.ㅍ로젝트 => 3주(2주 ㅍ로젝트, 1주 깃허브 특강)
+
+7. python = > 파이썬 기본까지(1월 2X, 설연휴 전까지)
+	      파이썬 tensorflow로 deep learning(CNN)
